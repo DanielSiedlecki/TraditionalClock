@@ -66,8 +66,43 @@
     width: 440px;
     height: 440px;
     border-radius: 440px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
+
+.small-circle {
+    width: 40px;
+    height: 40px;
+    background-color: var(--secondary-color-1);
+    border-radius: 40px;
+    position: absolute;
+    
+}
+
+.hands-clock-line-hour {
+
+    background-color: black;
+    opacity: 0.8;
+    width: 10px;
+    height: 150px;
+    border-radius: 40px;
+    position: absolute;
+    transform: translateY(-45%);
+}
+.hands-clock-line-minute {
+
+    background-color: blue;
+    opacity: 0.8;
+    width: 10px;
+    height: 100px;
+    border-radius: 40px;
+    position: absolute;
+    transform: translateY(-45%);
+}
+
 
 .lines-hours{
     
@@ -104,13 +139,13 @@
 .lines-hours span:nth-child(2){
     transform: translateX(200px);
     transform: rotate(90deg);
-    bottom: 50%;
+    bottom: 46%;
     left: 4%;
 
 }
 .lines-hours span:nth-child(3){
     transform: rotate(90deg);
-    bottom: 50%;
+    bottom: 46%;
     right: 4%;
 
 }
