@@ -1,5 +1,5 @@
-# TimeWorldApp
-
+# TraditionalClock for all of the world
+![](https://github.com/DanielSiedlecki/TraditionalClock/blob/main/demo.gif)
 ### Descirption
 
 ITS IS ONLY DESKTOP VERSION BECAUSE I HAVE'T ADDED RESPONSIBILITY YET
