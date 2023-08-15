@@ -1,76 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Knewave&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Knewave&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TimeWorldApp</title>
-</head>
-<body>
-    
-<div class="container">
+  </head>
+  <body>
+    <div class="container">
+      <div class="time-box">
+        <div class="choose-country-panel">
+          <span class="title"><a>Choose Country</a></span>
 
-    <div class="time-box ">
-        <div class="choose-country-panel border">
-        
-        
-        
+          <span class="choose-window">
+            <span class="choose"
+              ><select name="languages" id="lang">
+                <option value=" Polska">Polska</option>
+                <option value="Niemcy">Niemcy</option>
+                <option value="Anglia">Anglia</option>
+              </select></span
+            >
+            <button>Change</button>
+          </span>
         </div>
 
-        <div class="clock-panel ">
-            
-                <div class="circle-clock-background">
+        <div class="clock-panel">
+          <div class="circle-clock-background">
+            <span class="clock-face">
+              <span class="hands-clock-line-hour"></span>
+              <span class="hands-clock-line-minute"></span>
+              <span class="small-circle"></span>
 
-                    <span class="clock-face">
-                    <span class="hands-clock-line-hour"></span>
-                    <span class="hands-clock-line-minute"></span>
-                    <span class="small-circle"></span>
-                    
-                    <span class="lines-hours ">
-                    
-                    
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    
-                    
-                    
-                    </span>
-                    </span>
-
-
-
-                </div>
-
-        
-        
+              <span class="lines-hours">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </span>
+          </div>
         </div>
-
-        
-
-       
-
-
-
-
-
-
+      </div>
     </div>
-
-
-
-
-</div>
-
-
-
-
-
-    
-</body>
+  </body>
 </html>

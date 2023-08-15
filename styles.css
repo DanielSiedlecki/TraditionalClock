@@ -6,6 +6,8 @@
     margin: 0;
     padding: 0;
     background-color: var(--primary-color);
+    font-family: var(--global-font);
+    font-size: 12px;
 }
 
 .border  {
@@ -36,12 +38,79 @@
     height: 100%;
     width: 60%;
     display: flex;
+    flex-direction: column;
         align-items: center;
         justify-content: center;
+        gap: 20px;
 }
 
-.clock-panel {
+
+.choose-country-panel .title  a{
+    font-size: 3vmax;
+    color: var(--secondary-color-2);
+    
+}
+
+.choose-country-panel .choose-window {
+    height: 50%;
+    width: 100%;
+    background-color: var(--secondary-color-1);
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 5px;
+}   
+
+.choose-window .choose  {
+    width: 40%;
+    height: 35%;
+    background-color: transparent;
+    
+}
+
+
+.choose-window .choose select  {
+    width: 100%;
+    height: 100%;
+    font-size: 2.8vmax;
+    color: var(--secondary-color-2);
+    background-color: transparent;
+    border: none ;
+    box-shadow: none;
+    text-align: center;
+    
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.choose-window button {
+    border-radius: 40px;
     width: 50%;
+    height: 20%;
+    font-size: 2vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--secondary-color-2);
+    color: var(--primary-color);
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+
+
+
+}
+
+
+
+
+.clock-panel {
+    width: 60%;
     height: 100%;
     display: flex;
         align-items: center;
@@ -53,6 +122,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    max-width: 550px;
+    max-height: 500px;
     width: 500px;
     height: 500px;
     background-color: var(--secondary-color-1);
@@ -63,8 +134,11 @@
 .circle-clock-background .clock-face{
     
     background-color: var(--secondary-color-2);
-    width: 440px;
-    height: 440px;
+  
+    width: 100%;
+    height: 100%;
+    max-width: 440px;
+        max-height: 440px;
     border-radius: 440px;
     position: relative;
     display: flex;
@@ -90,7 +164,8 @@
     height: 150px;
     border-radius: 40px;
     position: absolute;
-    transform: translateY(-45%);
+    transform-origin: bottom center;
+    transform: translateY(-45%) rotate(0deg);
 }
 .hands-clock-line-minute {
 
@@ -99,6 +174,7 @@
     width: 10px;
     height: 100px;
     border-radius: 40px;
+    transform-origin: bottom center;
     position: absolute;
     transform: translateY(-45%);
 }
