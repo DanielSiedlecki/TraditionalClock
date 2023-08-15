@@ -14,3 +14,10 @@ Small project, it is Clock for check time all of the world I used only **HTML, J
 ### Documentation
 
 API which I used: http://worldtimeapi.org/
+
+### Run and install
+optional: change port
+first step: `npm install` 
+second step: `node server.js`
+
+
