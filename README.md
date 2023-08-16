@@ -1,8 +1,10 @@
 # TraditionalClock for all of the world
+
 ![](https://github.com/DanielSiedlecki/TraditionalClock/blob/main/demo.gif)
+
 ### Descirption
 
-ITS IS ONLY DESKTOP VERSION BECAUSE I HAVE'T ADDED RESPONSIBILITY YET
+in soon add options to choose between digital and analog clock...
 
 **PL:**
 Mały projekt zegara do wyświetlania czasu w wybranym kraju do którego użyłem tylko
@@ -16,8 +18,7 @@ Small project, it is Clock for check time all of the world I used only **HTML, J
 API which I used: http://worldtimeapi.org/
 
 ### Run and install
+
 optional: change port
-first step: `npm install` 
+first step: `npm install`
 second step: `node server.js`
-
-

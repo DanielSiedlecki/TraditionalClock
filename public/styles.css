@@ -18,7 +18,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 
 .time-box {
@@ -61,9 +60,9 @@
 }
 
 .choose-country-panel .choose-window a {
-    font-size: 32px;
-    color: var(--secondary-color-2);
-    background-color: transparent;
+  font-size: 32px;
+  color: var(--secondary-color-2);
+  background-color: transparent;
 }
 
 .choose-window .choose {
@@ -222,53 +221,39 @@ select {
   left: 5%;
 }
 
-
-
-
 /* Mobile */
 @media screen and (max-width: 912px) {
-.time-box {
+  .time-box {
     flex-direction: column-reverse;
   }
 
-.choose-country-panel {
-
-  width: 80%;
-
-
-
-}
-}
-
-
-@media screen and (max-width: 754px){
   .choose-country-panel {
+    width: 80%;
+  }
+}
 
+@media screen and (max-width: 754px) {
+  .choose-country-panel {
     width: 100%;
-
-
-
   }
 
- .choose {
-  width: 100%;
- }
+  .choose {
+    width: 100%;
+  }
 
   .choose option {
-  width: 100%;
- }
-.choose-window .choose select {
-
-  font-size: 16px;
-  width: 100%;
-  
-}
+    width: 100%;
+  }
+  .choose-window .choose select {
+    font-size: 16px;
+    width: 100%;
+  }
 
   .time-box {
     flex-direction: column-reverse;
   }
 
-  .circle-clock-background{
+  .circle-clock-background {
     width: 250px;
     height: 250px;
     border-radius: 250px;
@@ -278,78 +263,62 @@ select {
     width: 215px;
     height: 215px;
     border-radius: 215px;
-    
   }
-
 
   .small-circle {
     height: 20px;
     width: 20px;
     border-radius: 20px;
-    
   }
 
-  .hands-clock-line-hour{
-
+  .hands-clock-line-hour {
     height: 60px;
     width: 8px;
   }
 
-    .hands-clock-line-minute {
-      height: 90px;
-      width: 8px;
-    }
+  .hands-clock-line-minute {
+    height: 90px;
+    width: 8px;
+  }
 
-    
-        .lines-hours {
-          width: 215px;
-          height: 215px;
-        
-        }
+  .lines-hours {
+    width: 215px;
+    height: 215px;
+  }
 
+  .lines-hours span {
+    display: flex;
+    height: 25px;
+    width: 6px;
+  }
 
+  .lines-hours span:nth-child(1) {
+    transform: translateX(150px);
+    top: 1;
+    left: -21%;
+  }
 
-.lines-hours span {
-  display: flex;
-  height: 25px;
-  width: 6px;
-  
+  .lines-hours span:nth-child(2) {
+    transform: translateX(200px);
+    transform: rotate(90deg);
+    bottom: 46%;
+    left: 3%;
+  }
+
+  .lines-hours span:nth-child(3) {
+    transform: rotate(90deg);
+    bottom: 46%;
+    right: 3%;
+  }
+
+  .lines-hours span:nth-child(4) {
+    transform: translateX(150px);
+    bottom: -1%;
+    left: -21%;
+  }
 }
 
-.lines-hours span:nth-child(1) {
-  transform: translateX(150px);
-  top: 1;
-  left: -21%;
-}
-
-.lines-hours span:nth-child(2) {
-  transform: translateX(200px);
-  transform: rotate(90deg);
-  bottom: 46%;
-  left: 3%;
-}
-
-.lines-hours span:nth-child(3) {
-  transform: rotate(90deg);
-  bottom: 46%;
-  right: 3%;
-}
-
-.lines-hours span:nth-child(4) {
-  transform: translateX(150px);
-  bottom: -1%;
-  left: -21%;
-}
-
-
-
-
-}
-
-
-@media screen and (max-width: 420px) { 
-
-
+@media screen and (max-width: 420px) {
   .circle-clock-background {
     width: 220px;
     height: 220px;
@@ -360,19 +329,15 @@ select {
     width: 190px;
     height: 190px;
     border-radius: 190px;
-
   }
-
 
   .small-circle {
     height: 15px;
     width: 15px;
     border-radius: 15px;
-
   }
 
   .hands-clock-line-hour {
-
     height: 40px;
     width: 7px;
   }
@@ -382,20 +347,15 @@ select {
     width: 8px;
   }
 
-
   .lines-hours {
     width: 190px;
     height: 190px;
-
   }
-
-
 
   .lines-hours span {
     display: flex;
     height: 25px;
     width: 6px;
-
   }
 
   .lines-hours span:nth-child(1) {
@@ -420,9 +380,6 @@ select {
   .lines-hours span:nth-child(4) {
     transform: translateX(150px);
     bottom: -1%;
-    left: -31%
+    left: -31%;
   }
-
-
-
 }
